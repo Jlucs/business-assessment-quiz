@@ -39,14 +39,14 @@ const Home: NextPage = () => {
 
             <div className="mt-5 button">
                 <div className="button-spacer">
-                    <Link href="http://localhost:3000/assessment-gate/quality-management/iso/20001-2018/maturity-assessment">
+                    <Link href="/assessment-gate/quality-management/iso/20001-2018/maturity-assessment">
                         <a className="btn btn-blue">
                             General ISO 20001 Maturity		
                         </a>
                     </Link>
                 </div>
                 <div className="button-spacer">
-                    <Link href="http://localhost:3000/assessment-gate/quality-management/iso/20001-2018/maturity-specific-assessment">
+                    <Link href="/assessment-gate/quality-management/iso/20001-2018/maturity-specific-assessment">
                         <a className="btn btn-blue">
                             Specific Processes Maturity 		
                         </a>
