@@ -9,13 +9,16 @@ import Dropdown from "../../../../components/Dropdown/Dropdown.jsx"
 const Home: NextPage = () => {
   return (
     <main className="">
-        <div className="assessment-header">
+        {/* <div className="assessment-header">
             <div className="container container-fluid d-flex justify-content-between align-items-center">
                 <div className="url">
                     Quality-Management / ISO
                 </div>
                 <div></div>
             </div>
+        </div> */}
+        <div className="toolbar container-fluid">
+            <div className="nav-path"><Link href="/assessment-gate"><a>Assessment gate</a></Link><span className="spacer">/</span><Link href="/assessment-gate/quality-management"><a>Quality-management</a></Link><span className="spacer">/</span>ISO - 200001-2018</div>
         </div>
         <div className="container container-fluid container-1120 mt-5">
             <div className="d-flex flex-auto flex-justify-start">
@@ -34,7 +37,7 @@ const Home: NextPage = () => {
                 </div>
             </div>
 
-            <div className="mt-5 button-">
+            <div className="mt-5 button">
                 <div className="button-spacer">
                     <Link href="http://localhost:3000/assessment-gate/quality-management/iso/20001-2018/maturity-assessment">
                         <a className="btn btn-blue">
@@ -43,7 +46,7 @@ const Home: NextPage = () => {
                     </Link>
                 </div>
                 <div className="button-spacer">
-                    <Link href="">
+                    <Link href="http://localhost:3000/assessment-gate/quality-management/iso/20001-2018/maturity-specific-assessment">
                         <a className="btn btn-blue">
                             Specific Processes Maturity 		
                         </a>

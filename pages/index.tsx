@@ -15,13 +15,16 @@ const Home: NextPage = () => {
     });
     return (
     <main className="">
-        <div className="toolbar container-fluid">
+        {/* <div className="toolbar container-fluid">
             <div className="start">
                 <div className="tab-base tab-selected">Home</div>
             </div>
             <div className="end">
 
             </div>
+        </div> */}
+        <div className="toolbar container-fluid">
+            <div className="nav-path">Home</div>
         </div>
         <div className="new-action-topbar container-fluid">
             <Link href="/assessment-gate">

@@ -16,12 +16,7 @@ const Home: NextPage = () => {
   return (
     <main className="">
         <div className="toolbar container-fluid">
-            <div className="start">
-                <div className="tab-base tab-selected">Assessment Gate - Quality Management</div>
-            </div>
-            <div className="end">
-
-            </div>
+            <div className="nav-path"><Link href="/assessment-gate"><a>Assessment Gate</a></Link><span className="spacer">-</span> Quality management</div>
         </div>
         <div className="new-action-topbar container-fluid">
             <Link href="/assessment-gate/quality-management/iso/20001-2018">
