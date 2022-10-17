@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               </div>
               <div className="mt-3 button">
                 <div className="button-spacer">
-                    <Link href="http://localhost:3000/assessment-gate/quality-management/iso/20001-2018/maturity-assessment/new-assessment">
+                    <Link href="/assessment-gate/quality-management/iso/20001-2018/maturity-assessment/new-assessment">
                         <a className="btn btn-grey">
                             Start assessment →		
                         </a>
